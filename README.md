@@ -28,5 +28,10 @@ iteration=2000, bs=1, 動画を切り分けない
 iteration=2000, bs=1, frame=300で動画を切り分け 
  * Average PCE: 0.02068034188034188
  
+ ### 今やってること
+ # pallas
+ iteration=2000, bs=8, frame=300
+ # glacus
+ iteration=6000, bs=16, frame=100
 
 
