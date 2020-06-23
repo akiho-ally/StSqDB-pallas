@@ -12,26 +12,26 @@
   * 交差検証のために4つにsplit(pklファイルの作成)
 
 
-### Train
+## Train
 bs=8  
 iteration=3000  
 
 
-### Evaluate
+## Evaluate
 bs=1(しかできない。。なぜ？？）
 
 
-### これまでの精度
+## これまでの精度
 iteration=2000, bs=1, 動画を切り分けない
  * Average PCE: 0.03138888888888889
 
 iteration=2000, bs=1, frame=300で動画を切り分け 
  * Average PCE: 0.02068034188034188
  
- ### 今やってること
- # pallas
+ ## 今やってること
+ ### pallas
  iteration=2000, bs=8, frame=300
- # glacus
+ ### glacus
  iteration=6000, bs=16, frame=100
 
 
