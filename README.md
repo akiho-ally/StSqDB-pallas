@@ -22,7 +22,10 @@ bs=1(しかできない。。なぜ？？）
 
 
 ### これまでの精度
-iteration=2000, bs=1, seq_length=300  
+iteration=2000, bs=1, 動画を切り分けない
+ * Average PCE: 0.03138888888888889
+
+iteration=2000, bs=1, frame=300で動画を切り分け 
  * Average PCE: 0.02068034188034188
  
 
