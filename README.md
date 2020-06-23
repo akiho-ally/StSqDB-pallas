@@ -21,3 +21,9 @@ iteration=3000
 bs=1(しかできない。。なぜ？？）
 
 
+### これまでの精度
+iteration=2000, bs=1, seq_length=300  
+ * Average PCE: 0.02068034188034188
+ 
+
+
